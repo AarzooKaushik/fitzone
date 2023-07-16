@@ -1,0 +1,251 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 58%;
+  }
+  .container {
+    padding: 11rem 4.8rem;
+  }
+  .large-heading {
+    font-size: 6.4rem;
+    line-height: 6rem;
+  }
+  .cta-content .large-heading {
+    line-height: 6.8rem;
+  }
+  .section-intro-white-heading {
+    font-size: 5rem;
+    line-height: 5.5rem;
+  }
+  .section-intro {
+    gap: 0;
+  }
+  .navbar {
+    padding: 3.2rem 4.8rem;
+  }
+  .nav-sticky {
+    padding: 1.8rem 4.8rem;
+  }
+  .home-container {
+    padding: 0 4.8rem;
+  }
+  .about-content-box {
+    width: 100%;
+  }
+  .cta-content {
+    width: auto;
+  }
+  .class-content {
+    padding: 6.4rem 2rem;
+  }
+  .features {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+}
+@media (max-width: 1000px) {
+  .primary-para {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  .navlist {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+    height: 100vh;
+    width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4.8rem;
+    background-color: var(--dark-grey-color);
+    z-index: 9999;
+    overflow: hidden;
+  }
+  .nav-open {
+    width: 50%;
+  }
+  .hide-menu-bar {
+    display: block;
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    z-index: 99999999;
+  }
+  .menu-bar {
+    display: block;
+  }
+  .home-container {
+    padding: 0 4.8rem;
+    height: 100vh;
+  }
+  .home-content {
+    width: 100%;
+  }
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+  .section-intro {
+    margin-bottom: 6.4rem;
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+  .team-content {
+    max-width: 55rem;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cta-section {
+    grid-template-columns: 1fr;
+  }
+  .cta-img {
+    height: 40rem;
+  }
+  .class-container {
+    grid-template-columns: 1fr;
+    max-width: 55rem;
+    margin: auto;
+  }
+  .section-intro-white-heading {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+  .facility-container {
+    margin: auto;
+    max-width: 55rem;
+    flex-direction: column;
+  }
+  .features-container {
+    grid-template-columns: 1fr;
+  }
+  .features-img {
+    height: 50rem;
+  }
+  .features-content {
+    padding: 4.8rem;
+  }
+  .features {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pricing-container {
+    margin: auto;
+    max-width: 55rem;
+    grid-template-columns: 1fr;
+  }
+  .contact-info {
+    gap: 4.8rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    padding: 9.6rem 3.2rem;
+  }
+  .home-content p {
+    width: 100%;
+  }
+  .about-container {
+    gap: 1.2rem;
+  }
+  .section-intro-heading {
+    font-size: 4rem;
+  }
+  .primary-para {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+  .large-heading {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .cta-content .large-heading {
+    line-height: 5.5rem;
+  }
+  .section-intro-white-heading {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  .counter-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 4.8rem;
+  }
+  .features-content {
+    padding: 2.4rem;
+  }
+  .features {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+  .footer {
+    padding: 3rem 3.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .navbar {
+    padding: 3.2rem 1.2rem;
+  }
+  .nav-open {
+    width: 100%;
+  }
+  .container {
+    padding: 4.8rem 1.2rem;
+  }
+  .home-container {
+    padding: 0 1.2rem;
+  }
+  .section-intro-heading {
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+  }
+  .pricing-card .section-intro-heading {
+    font-size: 4.8rem;
+  }
+  .section-intro {
+    margin-bottom: 4.8rem;
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+  .team-content {
+    max-width: 35rem;
+    grid-template-columns: 1fr;
+  }
+  .class-box {
+    grid-template-columns: 1fr;
+  }
+  .class-img {
+    height: 25rem;
+  }
+  .section-intro-white-heading {
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+  }
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    gap: 2.4rem;
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  .section-intro-heading {
+    font-size: 2.8rem;
+  }
+  .large-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .cta-content .large-heading {
+    line-height: 4.5rem;
+  }
+  .class-content {
+    padding: 4.8rem 1.2rem;
+  }
+  .counter-container {
+    grid-template-columns: 1fr;
+  }
+}
