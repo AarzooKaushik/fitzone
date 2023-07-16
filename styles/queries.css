@@ -196,6 +196,7 @@
   }
   .home-container {
     padding: 0 1.2rem;
+    background: url("../images/homeBG.png") no-repeat right center/cover;
   }
   .section-intro-heading {
     font-size: 3.2rem;
